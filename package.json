@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jchraibi/console-extensions/issues"
   },
-  "homepage": "https://github.com/jchraibi/console-extensions#readme"
+  "homepage": "https://github.com/jchraibi/console-extensions#readme",
+  "dependencies": {
+    "angular": "^1.6.9"
+  }
 }
