@@ -4,37 +4,6 @@
   This file contains extensions being used by the OpenShift Online Developer Preview
   They can be used as reference examples.
 */
-
-/*
-  Override the CLI download locations
-*/
-window.OPENSHIFT_CONSTANTS.CLI = {
-  "Linux (32 bits)": "https://openshift.com/tbd_url/32bitlinux.tar.gz",
-  "Linux (64 bits)": "https://openshift.com/tbd_url/64bitlinux.tar.gz",
-  "Windows":         "https://openshift.com/tbd_url/win.zip",
-  "Mac OS X":        "https://openshift.com/tbd_url/mac.zip"
-};
-
-/*
-  Override the documentation links
-*/
-window.OPENSHIFT_CONSTANTS.HELP = {
-  "cli":                     "https://docs.openshift.com/online/latest/cli_reference/overview.html",
-  "get_started_cli":         "https://docs.openshift.com/online/latest/cli_reference/get_started_cli.html",
-  "basic_cli_operations":    "https://docs.openshift.com/online/latest/cli_reference/basic_cli_operations.html",
-  "webhooks":                "https://docs.openshift.com/online/latest/dev_guide/builds.html#webhook-triggers",
-  "new_app":                 "https://docs.openshift.com/online/latest/dev_guide/new_app.html",
-  "start-build":             "https://docs.openshift.com/online/latest/dev_guide/builds.html#starting-a-build",
-  "deployment-operations":   "https://docs.openshift.com/online/latest/cli_reference/basic_cli_operations.html#build-and-deployment-cli-operations",
-  "route-types":             "https://docs.openshift.com/online/latest/architecture/core_concepts/routes.html#route-types",
-  "persistent_volumes":      "https://docs.openshift.com/online/latest/dev_guide/persistent_volumes.html",
-  "compute_resources":       "https://docs.openshift.com/online/latest/dev_guide/compute_resources.html",
-  "pod_autoscaling":         "https://docs.openshift.org/online/latest/dev_guide/pod_autoscaling.html",
-  "application_health":      "https://docs.openshift.org/online/latest/dev_guide/application_health.html",
-  "default":                 "https://docs.openshift.com/online/latest/welcome/index.html"
-};
-
-
 angular
   .module('openshiftOnlineExtensions', ['openshiftConsole'])
   .run([
