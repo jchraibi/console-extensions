@@ -8,7 +8,7 @@
 //   .module('openshiftOnlineExtensions', ['openshiftConsole'])
 //   .run([
 //     'extensionRegistry',
-    function(extensionRegistry) {
+    (function(extensionRegistry) {
 
       var system_status_elem = $('<a href="http://status.openshift.com/" target="_blank" class="nav-item-iconic system-status project-action-btn">');
       var system_status_elem_mobile = $('<div row flex class="navbar-flex-btn system-status-mobile">');
@@ -66,7 +66,7 @@
           ];
         });
 
-    }
+    }());
 //   ]);
 
 pluginLoader.addModule('openshiftOnlineExtensions');
