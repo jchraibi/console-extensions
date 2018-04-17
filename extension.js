@@ -4,6 +4,12 @@ window.OPENSHIFT_CONSTANTS.APP_LAUNCHER_NAVIGATION = [{
   iconClass: "fa fa-dashboard",          // The icon you want to appear
   href: "http://127.0.0.1:9000",  // Where to go when this item is clicked
   tooltip: 'Admin UI'              // Optional tooltip to display on hover
+},
+{
+  title: "Tectonic 2",                    // The text label
+  iconClass: "fa fa-dashboard",          // The icon you want to appear
+  href: "http://127.0.0.1:9000",  // Where to go when this item is clicked
+  tooltip: 'Admin UI'              // Optional tooltip to display on hover
 }];
 
 window.OPENSHIFT_CONSTANTS.CATALOG_HELP_RESOURCES.push({
