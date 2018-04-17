@@ -4,10 +4,10 @@
   This file contains extensions being used by the OpenShift Online Developer Preview
   They can be used as reference examples.
 */
-angular
-  .module('openshiftOnlineExtensions', ['openshiftConsole'])
-  .run([
-    'extensionRegistry',
+// angular
+//   .module('openshiftOnlineExtensions', ['openshiftConsole'])
+//   .run([
+//     'extensionRegistry',
     function(extensionRegistry) {
 
       var system_status_elem = $('<a href="http://status.openshift.com/" target="_blank" class="nav-item-iconic system-status project-action-btn">');
@@ -67,6 +67,6 @@ angular
         });
 
     }
-  ]);
+//   ]);
 
 pluginLoader.addModule('openshiftOnlineExtensions');
