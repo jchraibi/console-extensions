@@ -3,7 +3,7 @@
 window.OPENSHIFT_CONSTANTS.PROJECT_NAVIGATION.push({
   label: "Dashboard",           // The text label
   iconClass: "fa fa-dashboard", // The icon you want to appear
-  href: "/dashboard"            // Where to go when this nav item is clicked.
+  href: "http://www.google.com"            // Where to go when this nav item is clicked.
                                 // Relative URLs are pre-pended with the path
                                 // '/project/<project-name>'
 });
