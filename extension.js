@@ -7,10 +7,10 @@ window.OPENSHIFT_CONSTANTS.APP_LAUNCHER_NAVIGATION = [{
 }];
 
 window.OPENSHIFT_CONSTANTS.SAAS_OFFERINGS = [{
-  title: "Dashboard",                         // The text label
+  title: "Coolstore",                         // The text label
   icon: "fa fa-dashboard",                    // The icon you want to appear
-  url: "http://example.com/dashboard",        // Where to go when this item is clicked
-  description: "Open application dashboard."  // Short description
+  url: "https://master.demo.openshift.fr:8443/console/project/coolstore-prod/overview",        // Where to go when this item is clicked
+  description: "Coolstore demo"  // Short description
 }, {
   title: "System Status",
   icon: "fa fa-heartbeat",
